@@ -131,6 +131,20 @@ body {
 }
 
 /* SEZIONE MAIN */
+#row_special {
+  text-align: center;
+  padding: 40px;
+}
+
+div#row_special h3 {
+  font-size: 1.75em;
+  margin-bottom: 10px;
+}
+
+div#row_special p {
+  font-size: 1.25em;
+  color: grey;
+}
 .row::after {
   content: "";
   display: table;
