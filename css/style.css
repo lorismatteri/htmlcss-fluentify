@@ -90,6 +90,12 @@ body {
   text-align: right;
 }
 
+#btn_border {
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px 40px;
+}
+
 /* SEZIONE HERO */
 .hero_image {
   position: relative;
@@ -121,7 +127,7 @@ body {
   background-image: url('../img/banner_header.png');
   background-size: 50%;
   background-repeat: no-repeat;
-  background-position: 110% 110%;
+  background-position: 106% 110%;
 }
 
 /* SEZIONE MAIN */
