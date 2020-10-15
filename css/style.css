@@ -20,6 +20,10 @@ body {
 .bg_grey {
   background: #D3D3D3;
 }
+
+.border_top {
+  border-top: 1px solid lightgrey;
+}
 /* /UTILITY */
 
 #site_header {
@@ -27,7 +31,7 @@ body {
 }
 
 #site_content {
-  height: 1000px;
+  /* height: 1000px; */
 }
 
 #site_footer {
@@ -36,7 +40,7 @@ body {
 
 .container {
   width: 80%;
-  height: 100%;
+  /* height: 100%; */
   margin: auto;
 }
 
@@ -180,10 +184,31 @@ div.col_3 p {
   font-size: 1.2em;
   margin-top: 15px;
   line-height: 1.5em;
+  color: grey;
 }
 .col_2 {
   float: left;
   width: 50%;
+  padding: 5%;
+}
+
+div.col_2 img {
   height: 100%;
-  border: 1px solid black;
+}
+
+div.col_2 h3 {
+  font-size: 2em;
+  width: 65%;
+}
+
+div.col_2 p {
+  width: 65%;
+  font-size: 1.25em;
+  color: grey;
+  line-height: 1.5em;
+  margin: 15px 0;
+}
+
+div.col_2 a {
+  color: #5586BC;
 }
