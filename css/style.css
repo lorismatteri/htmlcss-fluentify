@@ -6,7 +6,7 @@ box-sizing: border-box;
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .bg_blue {
@@ -70,6 +70,11 @@ body {
 
 .logo {
   width: 15%;
+  height: 100%;
+  background-image: url('../img/logo.svg');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: 0 39%;
 }
 
 .menu_left {
@@ -99,9 +104,9 @@ body {
   transform: translateY(-50%);
 }
 .hero_text h1 {
-  font-size: 3em;
+  font-size: 3.5em;
   font-weight: 500;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .btn {
