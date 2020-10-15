@@ -30,12 +30,9 @@ body {
   height: 550px;
 }
 
-#site_content {
-  /* height: 1000px; */
-}
-
 #site_footer {
   height: 150px;
+  padding: 50px;;
 }
 
 .container {
@@ -156,7 +153,6 @@ div#row_special p {
 }
 
 .row {
-  height: 50%;
   padding-top: 40px;
 }
 
@@ -192,10 +188,6 @@ div.col_3 p {
   padding: 5%;
 }
 
-div.col_2 img {
-  height: 100%;
-}
-
 div.col_2 h3 {
   font-size: 2em;
   width: 65%;
@@ -211,4 +203,31 @@ div.col_2 p {
 
 div.col_2 a {
   color: #5586BC;
+}
+
+/* SEZIONE FOOTER */
+.footer_left, .footer_right {
+  display: inline-block;
+  width: 49%;
+}
+
+.footer_right {
+  text-align: right;
+}
+
+.footer_left h2 {
+  font-size: 2em;
+}
+
+.footer_right span, .footer_right select {
+  font-size: 1.25em;
+  color: grey;
+  font-weight: 600;
+}
+
+.selection {
+  width: 25%;
+  margin: 0 50px;
+  border-style: hidden;
+  border-bottom: 1px solid grey;
 }
