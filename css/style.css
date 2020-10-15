@@ -152,17 +152,35 @@ div#row_special p {
 }
 
 .row {
-  border: 1px solid red;
   height: 50%;
+  padding-top: 40px;
 }
 
 .col_3 {
   float: left;
   width: 33.33%;
-  height: 100%;
-  border: 1px solid black;
+  text-align: center;
+  padding: 40px;
 }
 
+div.col_3 img {
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+div.col_3 h4 {
+  color: #7CBB02;
+  font-size: 1.65em;
+  font-weight: 500;
+  padding-bottom: 15px;
+  border-bottom: 1px solid grey;
+}
+
+div.col_3 p {
+  font-size: 1.2em;
+  margin-top: 15px;
+  line-height: 1.5em;
+}
 .col_2 {
   float: left;
   width: 50%;
