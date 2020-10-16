@@ -7,6 +7,8 @@ box-sizing: border-box;
 
 body {
   font-family: 'Roboto', sans-serif;
+  min-width: 1400px;
+  overflow-x: hidden;
 }
 
 .bg_blue {
@@ -21,13 +23,14 @@ body {
   background: #D3D3D3;
 }
 
-.border_top {
-  border-top: 1px solid lightgrey;
-}
 /* /UTILITY */
 
 #site_header {
   height: 550px;
+  background-image: url('../img/banner_header.png');
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-position: 106% 110%;
 }
 
 #site_footer {
@@ -37,7 +40,6 @@ body {
 
 .container {
   width: 80%;
-  /* height: 100%; */
   margin: auto;
 }
 
@@ -122,13 +124,16 @@ body {
   text-decoration: none;
   border-radius: 10px;
   padding: 20px 10px;
+  display: inline-block;
 }
 
-.hero_container {
-  background-image: url('../img/banner_header.png');
-  background-size: 50%;
-  background-repeat: no-repeat;
-  background-position: 106% 110%;
+.btn_sm {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 20px 10px;
+  border: 1px solid #7CBB02;
 }
 
 /* SEZIONE MAIN */
@@ -172,16 +177,21 @@ div.col_3 h4 {
   color: #7CBB02;
   font-size: 1.65em;
   font-weight: 500;
-  padding-bottom: 15px;
-  border-bottom: 1px solid grey;
+  padding: 0 30px;
+}
+
+div.col_3 hr {
+  margin: 20px auto;
+  width: 20%;
+  color: #808080;
 }
 
 div.col_3 p {
   font-size: 1.2em;
-  margin-top: 15px;
   line-height: 1.5em;
   color: grey;
 }
+
 .col_2 {
   float: left;
   width: 50%;
@@ -190,11 +200,11 @@ div.col_3 p {
 
 div.col_2 h3 {
   font-size: 2em;
-  width: 65%;
+  width: 70%;
 }
 
 div.col_2 p {
-  width: 65%;
+  width: 70%;
   font-size: 1.25em;
   color: grey;
   line-height: 1.5em;
